@@ -12,7 +12,7 @@ features = np.load('features.npy', allow_pickle=True)
 labels = np.load('labels.npy')
 
 # Load and process image for recognition
-img = cv.imread(r'D:\ALL Fun Project\Python Project With OpenCV\Photos\TrainPhotos\Kusal\K2.jpeg')  # Add extension
+img = cv.imread(r'D:\ALL Fun Project\Python Project With OpenCV\Photos\TrainPhotos\Oliver\O2.jpeg')  # Add extension
 if img is None:
     print("Error: Image not found")
     exit()
